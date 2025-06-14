@@ -1,0 +1,61 @@
+/* 1. Убираем отступы и внутренние отступы */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Наследуем семейство шрифта и цвет */
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 3. Убираем стили списков */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 4. Убираем подчёркивания у ссылок по умолчанию */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 5. Изображения адаптивные */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* 6. Поля ввода */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* 7. Кнопки по умолчанию */
+button {
+  cursor: pointer;
+}
+
+/* 8. HTML5 блоки как блочные элементы */
+article,
+aside,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
