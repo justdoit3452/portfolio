@@ -1,12 +1,12 @@
 .body {
   background-color: #10121a;
+  color: #fff;
 }
 
 .container {
   max-width: 1200px;
   margin: 3rem auto 0;
   background-color: #181a22;
-  color: #fff;
   height: 100vh;
 }
 
@@ -15,8 +15,48 @@
   height: 100vh;
 }
 
-.header__logo {
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.nav__logo-link {
   text-decoration: none;
+  color: inherit;
+  margin-left: 50px;
+}
+
+.nav__logo-item {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav__list-item {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.nav__list-item:last-child {
+  margin-right: 50px;
+}
+
+.nav__list-link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav__list-link:hover {
+  color: #1d53f9;
+  text-decoration: underline;
 }
 
 .main {
