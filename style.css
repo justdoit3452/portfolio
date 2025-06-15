@@ -106,7 +106,7 @@
   justify-content: center;
 }
 
-.project__card-container {
+.section__card-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -115,7 +115,36 @@
   margin-top: 50px;
 }
 
-.project__card {
+.section__card {
   max-width: 30%;
   border: 1px solid white;
+}
+
+.review__section {
+  display: none;
+}
+
+.footer__title {
+  font-size: 20px;
+}
+.footer__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.footer__links {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__links-item {
+  margin-right: 20px;
+}
+
+.footer__links-item:hover {
+  color: #1d53f9;
+  text-decoration: underline;
 }
